@@ -1,10 +1,12 @@
-import HeroSection from "./components/layouts/hero/page";
-import Navbar from "./components/layouts/navbar/page";
+import Hero from "./components/layouts/Hero";
+import Marquee from "./components/layouts/Marquee";
+import Navbar from "./components/layouts/Navbar";
+import About from "./components/sections/About";
 
 export default function Home() {
   return (
     <div className="min-h-screen relative font-sans">
-      <div className="fixed inset-0 z-[-1] bg-[#FFFBF0]">
+      <div className="fixed inset-0 z-[-1] dot-pattern">
         <div className="absolute inset-0  pointer-events-none"></div>
       </div>
 
@@ -12,8 +14,10 @@ export default function Home() {
         <Navbar />
       </div>
 
-      <main  className="min-h-screen relative font-sans">
-        <HeroSection />
+      <main className="min-h-screen relative font-sans">
+        <Hero />
+        <Marquee />
+        <About/>
       </main>
     </div>
   );
