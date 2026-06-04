@@ -17,7 +17,7 @@ export default function Home() {
       <main className="min-h-screen relative font-sans">
         <Hero />
         <Marquee />
-        <About/>
+          <About />
       </main>
     </div>
   );
