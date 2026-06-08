@@ -1,5 +1,5 @@
-import Hero from "./components/layouts/Hero";
-import Marquee from "./components/layouts/Marquee";
+import Hero from "./components/sections/Hero";
+import Marquee from "./components/ui/Marquee";
 import Navbar from "./components/layouts/Navbar";
 import About from "./components/sections/About";
 

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Archivo_Black, Space_Grotesk } from "next/font/google";
 import "./globals.css";
+import BlobCursor from "./components/ui/BlobCursor";
 
 const archivoBlack = Archivo_Black({
   subsets: ["latin"],
@@ -27,7 +28,6 @@ export const metadata: Metadata = {
   },
 };
 
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -36,7 +36,28 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${archivoBlack.variable} ${space.variable}`}>
-        {children}
+        <div className="fixed inset-0 z-9999 pointer-events-none overflow-hidden">
+          <BlobCursor
+            blobType="circle"
+            fillColor="#ffdb33"
+            trailCount={3}
+            sizes={[10, 15, 75]}
+            innerSizes={[20, 35, 25]}
+            innerColor="rgba(255,255,255,0.8)"
+            opacities={[0.6, 0.6, 0.6]}
+            shadowColor="rgba(0,0,0,0.75)"
+            shadowBlur={5}
+            shadowOffsetX={10}
+            shadowOffsetY={10}
+            filterStdDeviation={30}
+            useFilter={true}
+            fastDuration={0.1}
+            slowDuration={0.5}
+            zIndex={100}
+          />
+        </div>
+
+        <div className="relative z-10">{children}</div>
       </body>
     </html>
   );
