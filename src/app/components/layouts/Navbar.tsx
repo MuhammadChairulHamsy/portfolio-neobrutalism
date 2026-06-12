@@ -17,19 +17,19 @@ const Navbar = () => {
           Home
         </Link>
         <Link
-          href="/about"
+          href="/#about"
           className="px-2 py-1 transition-all hover:bg-cyan-300 hover:text-black hover:border-2 hover:border-black hover:shadow-[2px_2px_0px_0px_#000]"
         >
           About Me
         </Link>
         <Link
-          href="/project"
+          href="/#project"
           className="px-2 py-1 transition-all hover:bg-pink-300 hover:text-black hover:border-2 hover:border-black hover:shadow-[2px_2px_0px_0px_#000]"
         >
           Project
         </Link>
         <Link
-          href="/contact"
+          href="/#contact"
           className="px-2 py-1 transition-all hover:bg-orange-300 hover:text-black hover:border-2 hover:border-black hover:shadow-[2px_2px_0px_0px_#000]"
         >
           Contact

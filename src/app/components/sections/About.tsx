@@ -4,9 +4,8 @@ import Stack from "./Stack";
 
 const About = () => {
   return (
-    <section className="flex flex-col lg:flex-row items-start justify-center gap-20 px-4 py-20 sm:px-6 lg:px-8 pt-20 sm:pt-32 lg:pt-36">
+    <section id="about" className="flex flex-col lg:flex-row items-start justify-center gap-20 px-4 py-20 sm:px-6 lg:px-8 pt-20 sm:pt-32 lg:pt-36">
       <div className="relative shrink-0">
-        {/* Bintang Berputar */}
         <div className="absolute -top-5 -left-5 z-10 text-primary text-4xl drop-shadow-md animate-spin-star select-none">
           ★
         </div>
@@ -22,7 +21,7 @@ const About = () => {
             }}
           >
             <Image
-              src="/image/about.gif"
+              src="/image/profile.webp"
               unoptimized
               alt="profile"
               width={400}
@@ -51,7 +50,7 @@ const About = () => {
           <Card.Title className="text-3xl sm:text-4xl font-bold mb-4 leading-tight">
             About Me
           </Card.Title>
-          <Card.Description className="text-[13px] md:text-[15px] leading-relaxed text-secondary">
+          <Card.Description className="indent-8 text-justify text-[13px] md:text-[15px] leading-relaxed text-secondary">
             My name is <strong>Muhammad Chairul Hamsy</strong>. I am a
             professional and enthusiastic programmer in my daily life. I am a
             quick learner with a self-learning attitude. I love to learn and

@@ -1,10 +1,9 @@
-import React from 'react'
 
 const Projects = () => {
   return (
-    <div>
+    <section id="projects">
       
-    </div>
+    </section>
   )
 }
 

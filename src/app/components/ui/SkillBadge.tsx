@@ -1,11 +1,6 @@
-// src/app/components/ui/SkillBadge.tsx
 import Image from "next/image";
+import {SkillBadgeProps} from "../../types/SkillBadgeProps"
 
-interface SkillBadgeProps {
-  name: string;
-  icon: string; 
-  alt?: string;
-}
 
 const SkillBadge = ({ name, icon, alt }: SkillBadgeProps) => {
   return (

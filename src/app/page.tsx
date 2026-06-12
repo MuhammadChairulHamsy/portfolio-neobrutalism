@@ -10,14 +10,14 @@ export default function Home() {
         <div className="absolute inset-0  pointer-events-none"></div>
       </div>
 
-      <div className="container mx-auto px-4 md:px-6 pt-5 md:pt-10 relative z-10 max-w-6xl pb-24 md:pb-8">
+      <header className="container mx-auto px-4 md:px-6 pt-5 md:pt-10 relative z-10 max-w-6xl pb-24 md:pb-8">
         <Navbar />
-      </div>
+      </header>
 
       <main className="min-h-screen relative font-sans">
         <Hero />
         <Marquee />
-          <About />
+        <About />
       </main>
     </div>
   );

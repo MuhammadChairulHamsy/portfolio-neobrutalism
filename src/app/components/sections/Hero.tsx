@@ -4,7 +4,7 @@ import { Card } from "../retroui/Card";
 
 const Hero = () => {
   return (
-    <section className="min-h-[50vh] md:min-h-screen flex flex-col justify-center items-center text-center relative px-2 md:mt-0">
+    <section id="/" className="min-h-[50vh] md:min-h-screen flex flex-col justify-center items-center text-center relative px-2 md:mt-0">
       <div className="absolute top-20 left-3 md:top-50 md:left-5 md:lg:top-45 lg:left-70 w-10 h-10 lg:w-16 lg:h-16 bg-purple-300 rounded-full border-[3px] border-black  shadow-[4px_4px_0px_0px_#000] animate-bounce delay-75 opacity-20"></div>
 
       <div className="absolute bottom-70 right-3 md:bottom-50 md:right-5 lg:bottom-50 lg:right-70 w-9 h-9 lg:w-12 lg:h-12 bg-orange-300 rotate-12 border-[3px] border-black  shadow-[4px_4px_0px_0px_#000] animate-pulse opacity-20 "></div>
