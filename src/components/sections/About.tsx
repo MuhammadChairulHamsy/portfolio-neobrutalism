@@ -21,7 +21,7 @@ const About = () => {
             }}
           >
             <Image
-              src="/image/profile.webp"
+              src="/image/Profile.jpeg"
               unoptimized
               alt="profile"
               width={400}
@@ -47,7 +47,7 @@ const About = () => {
             boxShadow: "6px 6px 0px #1a1a1a",
           }}
         >
-          <Card.Title className="text-3xl sm:text-4xl font-bold mb-4 leading-tight">
+          <Card.Title className="text-3xl sm:text-4xl text-primary font-bold mb-4 leading-tight">
             About Me
           </Card.Title>
           <Card.Description className="indent-8 text-justify text-[13px] md:text-[15px] leading-relaxed text-secondary">

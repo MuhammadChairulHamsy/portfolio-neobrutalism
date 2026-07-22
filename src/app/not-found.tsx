@@ -6,9 +6,10 @@ export default function NotFound() {
       <Image
         src="/image/notFound.webp"
         alt="not-found"
-        className="object-cover"
+        loading="eager"
         width={600}
         height={600}
+        className="h-auto w-auto object-cover"
       />
       <h1 className="text-foreground font-medium text-4xl">
         Halaman tidak ditemukan
