@@ -162,7 +162,9 @@
   position: absolute;
 }
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 @keyframes marquee {
   0% {

@@ -9,7 +9,7 @@ export default function NotFound() {
         loading="eager"
         width={600}
         height={600}
-        className="h-auto w-auto object-cover"
+        className="w-full h-auto object-cover max-w-[600px]"
       />
       <h1 className="text-foreground font-medium text-4xl">
         Halaman tidak ditemukan
